@@ -51,8 +51,7 @@ class SetMatrixZero{
             {0,5,7},
             {1,6,0}
         };
-        Solution s = new Solution();
-        s.setZeroes(mat);
+        Solution.setZeroes(mat);
         for (int i = 0; i < mat.length; i++) {
             for (int j = 0; j < mat[0].length; j++) {
                     System.out.print(mat[i][j]+" ");
