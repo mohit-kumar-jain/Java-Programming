@@ -20,6 +20,7 @@ public class ConstructorDemo {
         System.out.println("Using Default Constructor:");
         Car car1 = new Car();
         car1.displayInfo();
+        System.out.println();
         System.out.println("Using Parameterized Constructor:");
         Car car2 = new Car("Tesla", 2020);
         car2.displayInfo();
