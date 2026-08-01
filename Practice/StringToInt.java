@@ -38,5 +38,6 @@ public class StringToInt{
             String x = sc.next();
             System.out.println(myAtoi(x));
         }
+        sc.close();
     }
 }
