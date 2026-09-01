@@ -1,8 +1,8 @@
-class Student {
+class ThisDemo {
     int id;
     final String college = "ABC College";
 
-    Student(int id) {
+    ThisDemo(int id) {
         this.id = id;
     }
 
@@ -12,7 +12,7 @@ class Student {
     }
 
     public static void main(String[] args) {
-        Student s = new Student(101);
+        ThisDemo s = new ThisDemo(101);
         s.display();
     }
 }
