@@ -14,7 +14,7 @@ public class ListDemo {
         System.out.println("ArrayList:");
         System.out.println(arrayList);
 
-        arrayList.add("Raj");
+        arrayList.add("Raj");k
         System.out.println("After adding Raj: " + arrayList);
 
         arrayList.remove("Rahul");
